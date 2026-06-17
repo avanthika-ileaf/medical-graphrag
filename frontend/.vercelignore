@@ -34,21 +34,6 @@ build/
 .DS_Store
 Thumbs.db
 
-# Python files (should not be in frontend)
-*.py
-*.pyc
-*.pyo
-*.pyd
-venv/
-.venv/
-env/
-env.bak/
-envs/
-__pycache__/
-*.egg-info/
-MANIFEST
-requirements.txt
-
 # Data files
 data/
 *.csv
