@@ -37,7 +37,6 @@ Thumbs.db
 # Data files
 data/
 *.csv
-*.json (except package*.json)
 
 # Tests
 tests/
@@ -47,7 +46,6 @@ test/
 
 # Documentation
 docs/
-*.md (except README.md)
 
 # Scripts
 scripts/
@@ -66,16 +64,6 @@ qdrant/
 
 # Ontology
 ontology/
-
-# API
-api/
-
-# Source
-src/
-
-# Setup
-setup_project.py
-setup.cfg
 
 # Git
 .git/
