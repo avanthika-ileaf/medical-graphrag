@@ -1,0 +1,91 @@
+patientID,conditionName,diagnosisDate,severity
+P00000,Chronic Kidney Disease,2016-04-03,moderate
+P00001,Type 1 Diabetes,2022-10-13,severe
+P00002,Depression,2021-02-01,moderate
+P00002,Type 2 Diabetes,2014-01-29,moderate
+P00003,COPD,2017-08-20,moderate
+P00004,Acute Myocardial Infarction,2010-03-25,severe
+P00004,COPD,2014-04-15,mild
+P00004,Epilepsy,2015-06-01,severe
+P00005,Epilepsy,2015-05-23,severe
+P00005,Deep Vein Thrombosis,2020-09-05,severe
+P00006,Type 1 Diabetes,2016-08-07,mild
+P00006,Type 2 Diabetes,2019-01-26,severe
+P00006,Chronic Kidney Disease,2015-06-17,moderate
+P00007,Anxiety Disorder,2022-06-01,severe
+P00007,Peptic Ulcer Disease,2017-09-17,moderate
+P00008,Epilepsy,2020-03-06,moderate
+P00008,Depression,2016-11-16,moderate
+P00008,Anxiety Disorder,2015-03-04,mild
+P00008,Acute Myocardial Infarction,2014-04-27,moderate
+P00009,Epilepsy,2014-02-25,mild
+P00010,Peptic Ulcer Disease,2016-03-15,severe
+P00011,Deep Vein Thrombosis,2023-05-21,moderate
+P00011,Chronic Liver Disease,2012-04-03,mild
+P00012,Anxiety Disorder,2014-01-09,moderate
+P00013,Epilepsy,2012-11-02,moderate
+P00014,Hypertension,2022-05-31,moderate
+P00015,Atrial Fibrillation,2021-01-04,mild
+P00015,Pneumonia,2010-04-11,severe
+P00016,Peptic Ulcer Disease,2019-11-18,moderate
+P00017,Hypertension,2015-08-31,moderate
+P00018,Chronic Kidney Disease,2018-12-27,moderate
+P00019,Pneumonia,2011-03-16,mild
+P00020,Rheumatoid Arthritis,2016-10-25,mild
+P00021,Heart Failure,2023-08-07,severe
+P00021,Epilepsy,2023-11-15,mild
+P00021,Deep Vein Thrombosis,2021-09-20,moderate
+P00021,Osteoporosis,2020-02-08,moderate
+P00022,Rheumatoid Arthritis,2019-08-14,moderate
+P00023,Hypertension,2012-03-23,mild
+P00023,Peripheral Neuropathy,2014-09-25,moderate
+P00024,Coronary Artery Disease,2013-11-24,severe
+P00024,Hyperlipidemia,2011-09-07,mild
+P00025,Type 1 Diabetes,2023-04-27,moderate
+P00026,Hyperlipidemia,2016-06-18,severe
+P00027,Type 1 Diabetes,2011-08-07,severe
+P00028,COPD,2023-03-25,severe
+P00029,Hypothyroidism,2022-03-20,mild
+P00029,Osteoporosis,2013-05-05,moderate
+P00029,Heart Failure,2013-03-11,mild
+P00030,Asthma,2023-05-07,severe
+P00031,Asthma,2020-07-06,severe
+P00031,Type 1 Diabetes,2016-10-27,severe
+P00031,Heart Failure,2019-01-11,moderate
+P00032,Peptic Ulcer Disease,2011-10-21,severe
+P00032,Type 1 Diabetes,2010-11-23,moderate
+P00033,Peripheral Neuropathy,2012-01-19,mild
+P00033,COPD,2022-11-26,severe
+P00033,Type 2 Diabetes,2010-06-19,severe
+P00034,Rheumatoid Arthritis,2013-12-06,moderate
+P00034,Hypertension,2021-08-22,severe
+P00034,Deep Vein Thrombosis,2019-12-02,moderate
+P00035,Rheumatoid Arthritis,2019-10-11,severe
+P00036,Chronic Kidney Disease,2019-02-28,moderate
+P00036,Peptic Ulcer Disease,2017-03-15,severe
+P00036,Anxiety Disorder,2012-05-06,mild
+P00037,Acute Myocardial Infarction,2016-06-19,severe
+P00037,Peptic Ulcer Disease,2018-12-25,severe
+P00038,Chronic Kidney Disease,2017-01-20,moderate
+P00039,Deep Vein Thrombosis,2021-07-17,mild
+P00039,Gout,2022-03-03,moderate
+P00040,Hypothyroidism,2018-02-11,severe
+P00040,Chronic Liver Disease,2021-03-07,severe
+P00041,Hypertension,2015-12-28,severe
+P00041,Hypothyroidism,2012-12-09,moderate
+P00042,Acute Myocardial Infarction,2012-09-21,mild
+P00042,Peptic Ulcer Disease,2023-08-28,mild
+P00043,Asthma,2022-05-22,moderate
+P00043,Epilepsy,2012-02-03,mild
+P00043,Type 2 Diabetes,2012-07-18,moderate
+P00044,Pneumonia,2016-07-18,severe
+P00044,Atrial Fibrillation,2016-02-18,moderate
+P00044,Peptic Ulcer Disease,2020-10-27,moderate
+P00044,Acute Myocardial Infarction,2015-06-20,moderate
+P00045,Gout,2023-06-12,severe
+P00045,Hypothyroidism,2013-01-23,mild
+P00046,Osteoporosis,2017-08-16,severe
+P00047,Type 2 Diabetes,2016-05-06,severe
+P00048,Rheumatoid Arthritis,2023-01-03,severe
+P00049,Atrial Fibrillation,2022-01-30,moderate
+P00049,Type 1 Diabetes,2017-09-28,moderate

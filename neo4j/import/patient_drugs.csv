@@ -1,0 +1,147 @@
+patientID,drugName,dosage,frequency,startDate
+P00000,Aspirin,10mg,twice daily,2022-01-14
+P00001,Losartan,500mg,weekly,2015-09-18
+P00002,Insulin Glargine,100mg,weekly,2024-08-26
+P00002,Azithromycin,5mg,once daily,2022-08-24
+P00003,Ciprofloxacin,100mg,as needed,2016-10-09
+P00003,Levothyroxine,1000mg,once daily,2023-02-05
+P00003,Sitagliptin,100mg,weekly,2023-07-18
+P00003,Hydrochlorothiazide,25mg,weekly,2016-03-11
+P00003,Lisinopril,100mg,weekly,2021-10-30
+P00004,Sertraline,25mg,weekly,2023-09-25
+P00005,Tamsulosin,5mg,once daily,2019-01-26
+P00005,Warfarin,100mg,twice daily,2015-08-26
+P00005,Insulin Glargine,50mg,weekly,2015-11-19
+P00005,Hydrochlorothiazide,10mg,as needed,2024-02-25
+P00005,Clopidogrel,10mg,weekly,2023-08-03
+P00006,Losartan,1000mg,weekly,2016-11-07
+P00007,Duloxetine,500mg,twice daily,2021-01-17
+P00007,Insulin Glargine,50mg,three times daily,2019-06-23
+P00008,Sitagliptin,50mg,twice daily,2015-09-20
+P00008,Sertraline,200mg,once daily,2021-08-06
+P00008,Azithromycin,50mg,weekly,2017-06-21
+P00008,Furosemide,5mg,once daily,2022-12-09
+P00008,Duloxetine,5mg,twice daily,2015-10-04
+P00008,Lisinopril,5mg,three times daily,2015-10-18
+P00009,Levothyroxine,50mg,weekly,2016-06-25
+P00009,Losartan,1000mg,twice daily,2023-10-19
+P00009,Clopidogrel,1000mg,as needed,2017-02-18
+P00010,Losartan,500mg,three times daily,2019-10-01
+P00011,Duloxetine,5mg,once daily,2015-09-06
+P00011,Tramadol,500mg,three times daily,2023-12-24
+P00012,Metoprolol,500mg,twice daily,2018-02-14
+P00012,Omeprazole,1000mg,twice daily,2024-10-21
+P00012,Prednisone,10mg,as needed,2024-01-23
+P00012,Azithromycin,10mg,once daily,2022-04-25
+P00012,Atorvastatin,5mg,once daily,2023-06-14
+P00013,Amlodipine,500mg,once daily,2016-11-05
+P00013,Amoxicillin,500mg,once daily,2019-05-19
+P00013,Clopidogrel,100mg,as needed,2018-03-14
+P00013,Omeprazole,500mg,weekly,2022-06-04
+P00014,Atorvastatin,5mg,three times daily,2015-08-23
+P00014,Omeprazole,5mg,weekly,2020-05-06
+P00014,Gabapentin,25mg,once daily,2020-09-11
+P00014,Aspirin,10mg,twice daily,2015-10-08
+P00015,Losartan,500mg,once daily,2024-12-25
+P00015,Duloxetine,50mg,weekly,2021-09-01
+P00015,Metoprolol,5mg,weekly,2015-12-02
+P00016,Allopurinol,200mg,three times daily,2017-04-16
+P00016,Furosemide,200mg,twice daily,2017-12-23
+P00017,Losartan,100mg,as needed,2018-07-19
+P00017,Sitagliptin,10mg,once daily,2020-02-21
+P00018,Allopurinol,50mg,weekly,2017-12-22
+P00018,Lisinopril,25mg,three times daily,2024-11-17
+P00018,Metformin,10mg,twice daily,2019-02-22
+P00019,Azithromycin,100mg,weekly,2024-01-19
+P00019,Carvedilol,5mg,weekly,2018-05-11
+P00020,Lisinopril,25mg,three times daily,2018-02-28
+P00020,Pantoprazole,50mg,three times daily,2017-04-13
+P00020,Atorvastatin,100mg,weekly,2020-06-24
+P00020,Levothyroxine,100mg,once daily,2016-01-14
+P00020,Tramadol,500mg,three times daily,2015-06-30
+P00021,Ciprofloxacin,25mg,three times daily,2016-10-23
+P00022,Prednisone,10mg,once daily,2024-11-26
+P00022,Spironolactone,25mg,weekly,2015-05-28
+P00022,Amoxicillin,200mg,weekly,2021-03-13
+P00022,Warfarin,25mg,as needed,2016-06-06
+P00023,Sertraline,5mg,three times daily,2017-05-10
+P00024,Losartan,500mg,weekly,2023-05-28
+P00024,Lisinopril,25mg,twice daily,2024-09-11
+P00024,Sertraline,25mg,twice daily,2024-11-19
+P00025,Amlodipine,200mg,as needed,2023-12-30
+P00025,Tramadol,50mg,three times daily,2016-10-14
+P00026,Lisinopril,1000mg,twice daily,2017-03-28
+P00026,Fluoxetine,1000mg,three times daily,2018-06-04
+P00026,Duloxetine,50mg,twice daily,2015-04-07
+P00026,Aspirin,50mg,as needed,2018-09-06
+P00027,Metformin,100mg,three times daily,2022-03-12
+P00027,Ciprofloxacin,500mg,weekly,2018-09-18
+P00028,Lisinopril,100mg,once daily,2016-03-20
+P00028,Pantoprazole,500mg,three times daily,2023-03-04
+P00028,Levothyroxine,200mg,as needed,2021-10-19
+P00028,Amlodipine,10mg,as needed,2021-06-19
+P00028,Allopurinol,50mg,three times daily,2015-07-01
+P00029,Warfarin,50mg,three times daily,2019-11-02
+P00029,Furosemide,10mg,three times daily,2021-12-27
+P00029,Tamsulosin,200mg,once daily,2023-01-27
+P00029,Digoxin,100mg,weekly,2018-06-20
+P00030,Hydrochlorothiazide,100mg,weekly,2016-06-05
+P00030,Fluoxetine,50mg,as needed,2022-06-16
+P00030,Spironolactone,500mg,twice daily,2021-11-26
+P00031,Fluoxetine,5mg,three times daily,2018-03-21
+P00031,Prednisone,50mg,as needed,2023-10-24
+P00031,Carvedilol,200mg,as needed,2019-12-15
+P00032,Omeprazole,1000mg,twice daily,2022-05-22
+P00032,Furosemide,10mg,three times daily,2020-10-12
+P00033,Insulin Glargine,50mg,three times daily,2017-07-09
+P00033,Hydrochlorothiazide,50mg,twice daily,2015-04-11
+P00033,Metformin,5mg,twice daily,2020-04-30
+P00034,Ciprofloxacin,500mg,weekly,2017-03-07
+P00034,Metformin,500mg,as needed,2019-06-25
+P00034,Azithromycin,50mg,twice daily,2022-05-11
+P00035,Pantoprazole,10mg,as needed,2017-06-15
+P00035,Ciprofloxacin,25mg,weekly,2020-03-17
+P00035,Duloxetine,5mg,weekly,2017-10-17
+P00036,Lisinopril,200mg,as needed,2021-11-14
+P00036,Azithromycin,500mg,weekly,2020-01-01
+P00036,Atorvastatin,25mg,as needed,2020-01-18
+P00036,Digoxin,100mg,twice daily,2024-06-02
+P00036,Losartan,100mg,weekly,2020-06-07
+P00037,Levothyroxine,100mg,twice daily,2018-01-17
+P00037,Azithromycin,200mg,three times daily,2021-01-21
+P00037,Metformin,10mg,twice daily,2016-09-09
+P00038,Spironolactone,50mg,once daily,2019-08-27
+P00038,Atorvastatin,500mg,three times daily,2021-01-31
+P00039,Aspirin,500mg,as needed,2023-08-20
+P00039,Omeprazole,5mg,weekly,2019-04-08
+P00039,Carvedilol,1000mg,once daily,2018-12-11
+P00040,Fluoxetine,500mg,weekly,2023-05-20
+P00040,Duloxetine,50mg,as needed,2017-06-17
+P00041,Clopidogrel,500mg,three times daily,2022-07-02
+P00041,Warfarin,500mg,twice daily,2024-06-04
+P00042,Atorvastatin,5mg,as needed,2021-08-21
+P00042,Insulin Glargine,5mg,once daily,2022-03-17
+P00042,Prednisone,500mg,twice daily,2024-09-20
+P00043,Aspirin,200mg,twice daily,2020-02-06
+P00043,Levothyroxine,200mg,three times daily,2023-07-15
+P00043,Fluoxetine,500mg,three times daily,2023-06-08
+P00044,Amoxicillin,5mg,three times daily,2017-07-07
+P00044,Levothyroxine,10mg,once daily,2023-06-17
+P00044,Carvedilol,5mg,twice daily,2017-03-27
+P00044,Metformin,5mg,weekly,2016-09-16
+P00044,Clopidogrel,50mg,twice daily,2020-04-23
+P00044,Warfarin,10mg,weekly,2017-06-11
+P00045,Levothyroxine,25mg,weekly,2021-10-23
+P00045,Ciprofloxacin,10mg,twice daily,2018-06-28
+P00045,Sertraline,10mg,weekly,2015-04-16
+P00046,Allopurinol,50mg,once daily,2021-08-22
+P00046,Losartan,50mg,once daily,2022-10-26
+P00046,Tamsulosin,100mg,weekly,2024-01-13
+P00046,Fluoxetine,10mg,weekly,2023-10-11
+P00046,Spironolactone,5mg,three times daily,2020-12-22
+P00047,Sertraline,200mg,once daily,2024-07-11
+P00047,Metformin,500mg,as needed,2016-03-08
+P00048,Sertraline,1000mg,twice daily,2019-11-19
+P00048,Sitagliptin,25mg,weekly,2022-04-18
+P00049,Digoxin,1000mg,as needed,2019-11-20
+P00049,Tamsulosin,100mg,three times daily,2024-07-20

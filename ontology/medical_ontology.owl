@@ -1,0 +1,231 @@
+@prefix : <http://medical-graphrag.org/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# ─────────────────────────────────────────────
+# Ontology Declaration
+# ─────────────────────────────────────────────
+<http://medical-graphrag.org/ontology>
+    a owl:Ontology ;
+    rdfs:label "Medical GraphRAG Ontology" ;
+    rdfs:comment "Formal OWL 2.0 ontology for patient-drug-condition knowledge graph supporting GraphRAG reasoning." .
+
+# ─────────────────────────────────────────────
+# Classes
+# ─────────────────────────────────────────────
+
+:Person
+    a owl:Class ;
+    rdfs:label "Person" .
+
+:Patient
+    a owl:Class ;
+    rdfs:subClassOf :Person ;
+    rdfs:label "Patient" ;
+    rdfs:comment "A person receiving medical care." .
+
+:HighRiskPatient
+    a owl:Class ;
+    rdfs:subClassOf :Patient ;
+    rdfs:label "High Risk Patient" ;
+    rdfs:comment "A patient taking 3+ drugs where at least one drug interacts with another they take. Automatically inferred via SWRL rule." ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf (
+            :Patient
+            [
+                a owl:Restriction ;
+                owl:onProperty :takesDrug ;
+                owl:minCardinality "3"^^xsd:nonNegativeInteger
+            ]
+            [
+                a owl:Restriction ;
+                owl:onProperty :takesDrug ;
+                owl:someValuesFrom [
+                    a owl:Restriction ;
+                    owl:onProperty :interactsWith ;
+                    owl:someValuesFrom :Drug
+                ]
+            ]
+        )
+    ] .
+
+:StandardRiskPatient
+    a owl:Class ;
+    rdfs:subClassOf :Patient ;
+    rdfs:label "Standard Risk Patient" .
+
+:Drug
+    a owl:Class ;
+    rdfs:label "Drug" ;
+    rdfs:comment "A pharmacological substance." .
+
+:PrescriptionDrug
+    a owl:Class ;
+    rdfs:subClassOf :Drug ;
+    rdfs:label "Prescription Drug" .
+
+:OverTheCounterDrug
+    a owl:Class ;
+    rdfs:subClassOf :Drug ;
+    rdfs:label "Over The Counter Drug" .
+
+:ControlledSubstance
+    a owl:Class ;
+    rdfs:subClassOf :Drug ;
+    rdfs:label "Controlled Substance" .
+
+:Condition
+    a owl:Class ;
+    rdfs:label "Medical Condition" .
+
+:ChronicCondition
+    a owl:Class ;
+    rdfs:subClassOf :Condition ;
+    rdfs:label "Chronic Condition" .
+
+:AcuteCondition
+    a owl:Class ;
+    rdfs:subClassOf :Condition ;
+    rdfs:label "Acute Condition" .
+
+:Interaction
+    a owl:Class ;
+    rdfs:label "Drug Interaction" .
+
+:MajorInteraction
+    a owl:Class ;
+    rdfs:subClassOf :Interaction ;
+    rdfs:label "Major Interaction" ;
+    rdfs:comment "Severity > 0.7. Life-threatening or requires immediate intervention." .
+
+:ModerateInteraction
+    a owl:Class ;
+    rdfs:subClassOf :Interaction ;
+    rdfs:label "Moderate Interaction" ;
+    rdfs:comment "Severity 0.4-0.7. May require monitoring or dose adjustment." .
+
+:MinorInteraction
+    a owl:Class ;
+    rdfs:subClassOf :Interaction ;
+    rdfs:label "Minor Interaction" ;
+    rdfs:comment "Severity < 0.4. Generally manageable." .
+
+:HealthcareProvider
+    a owl:Class ;
+    rdfs:label "Healthcare Provider" .
+
+# ─────────────────────────────────────────────
+# Object Properties
+# ─────────────────────────────────────────────
+
+:takesDrug
+    a owl:ObjectProperty ;
+    rdfs:label "takes drug" ;
+    rdfs:domain :Patient ;
+    rdfs:range :Drug ;
+    rdfs:comment "A patient is currently prescribed or taking a drug." .
+
+:hasCondition
+    a owl:ObjectProperty ;
+    rdfs:label "has condition" ;
+    rdfs:domain :Patient ;
+    rdfs:range :Condition .
+
+:interactsWith
+    a owl:ObjectProperty , owl:SymmetricProperty ;
+    rdfs:label "interacts with" ;
+    rdfs:domain :Drug ;
+    rdfs:range :Drug ;
+    rdfs:comment "Symmetric: if Drug A interacts with Drug B, Drug B interacts with Drug A." .
+
+:contraindicatedFor
+    a owl:ObjectProperty ;
+    rdfs:label "contraindicated for" ;
+    rdfs:domain :Drug ;
+    rdfs:range :Condition .
+
+:prescribedBy
+    a owl:ObjectProperty ;
+    rdfs:label "prescribed by" ;
+    rdfs:domain :Drug ;
+    rdfs:range :HealthcareProvider .
+
+:treatedBy
+    a owl:ObjectProperty ;
+    rdfs:label "treated by" ;
+    rdfs:domain :Patient ;
+    rdfs:range :HealthcareProvider .
+
+:hasInteraction
+    a owl:ObjectProperty ;
+    rdfs:label "has interaction" ;
+    rdfs:domain :Drug ;
+    rdfs:range :Interaction .
+
+# ─────────────────────────────────────────────
+# Data Properties
+# ─────────────────────────────────────────────
+
+:patientID
+    a owl:DatatypeProperty ;
+    rdfs:domain :Patient ;
+    rdfs:range xsd:string .
+
+:age
+    a owl:DatatypeProperty ;
+    rdfs:domain :Patient ;
+    rdfs:range xsd:integer .
+
+:gender
+    a owl:DatatypeProperty ;
+    rdfs:domain :Patient ;
+    rdfs:range xsd:string .
+
+:drugName
+    a owl:DatatypeProperty ;
+    rdfs:domain :Drug ;
+    rdfs:range xsd:string .
+
+:drugClass
+    a owl:DatatypeProperty ;
+    rdfs:domain :Drug ;
+    rdfs:range xsd:string .
+
+:fdaApproved
+    a owl:DatatypeProperty ;
+    rdfs:domain :Drug ;
+    rdfs:range xsd:boolean .
+
+:severity
+    a owl:DatatypeProperty ;
+    rdfs:domain :Interaction ;
+    rdfs:range xsd:float ;
+    rdfs:comment "Interaction severity score in [0, 1]. >0.7 = Major." .
+
+:conditionName
+    a owl:DatatypeProperty ;
+    rdfs:domain :Condition ;
+    rdfs:range xsd:string .
+
+:icd10Code
+    a owl:DatatypeProperty ;
+    rdfs:domain :Condition ;
+    rdfs:range xsd:string .
+
+:diagnosisDate
+    a owl:DatatypeProperty ;
+    rdfs:domain :Condition ;
+    rdfs:range xsd:dateTime .
+
+:npi
+    a owl:DatatypeProperty ;
+    rdfs:domain :HealthcareProvider ;
+    rdfs:range xsd:string .
+
+:specialty
+    a owl:DatatypeProperty ;
+    rdfs:domain :HealthcareProvider ;
+    rdfs:range xsd:string .

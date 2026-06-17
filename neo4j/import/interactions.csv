@@ -1,0 +1,37 @@
+drug1,drug2,severity,mechanism
+Warfarin,Aspirin,0.9,Additive anticoagulation increases bleeding risk
+Warfarin,Ciprofloxacin,0.85,CYP2C9 inhibition increases warfarin levels
+Warfarin,Fluoxetine,0.8,CYP2C9 inhibition increases warfarin exposure
+Warfarin,Sertraline,0.75,Serotonin effects on platelets + CYP inhibition
+Warfarin,Amoxicillin,0.7,Gut flora disruption reduces vitamin K production
+Warfarin,Azithromycin,0.72,Inhibits warfarin metabolism via P-gp
+Metformin,Furosemide,0.65,Increased lactic acidosis risk with reduced renal clearance
+Metformin,Prednisone,0.7,Corticosteroids cause hyperglycemia opposing metformin
+Lisinopril,Spironolactone,0.8,Additive hyperkalemia risk — potentially fatal
+Lisinopril,Hydrochlorothiazide,0.3,Additive antihypertensive effect — usually intentional
+Lisinopril,Losartan,0.75,Dual RAAS blockade increases hyperkalemia and AKI risk
+Atorvastatin,Azithromycin,0.65,CYP3A4 inhibition increases statin concentration → myopathy
+Atorvastatin,Ciprofloxacin,0.6,Moderate CYP3A4 inhibition raises statin levels
+Digoxin,Amiodarone,0.88,P-gp inhibition increases digoxin to toxic levels
+Digoxin,Azithromycin,0.78,P-gp inhibition elevates digoxin → arrhythmia
+Digoxin,Spironolactone,0.55,Spironolactone may reduce renal digoxin clearance
+Sertraline,Tramadol,0.85,Serotonin syndrome risk — potentially life-threatening
+Fluoxetine,Tramadol,0.88,Serotonin syndrome + seizure risk
+Fluoxetine,Duloxetine,0.8,Additive serotonergic effects → serotonin syndrome
+Sertraline,Duloxetine,0.78,Additive serotonergic and noradrenergic effects
+Metoprolol,Amlodipine,0.35,Additive hypotensive effect — usually monitored
+Metoprolol,Carvedilol,0.7,Additive beta blockade → bradycardia and hypotension
+Prednisone,Aspirin,0.65,Additive GI mucosal injury risk
+Prednisone,Furosemide,0.55,Additive hypokalemia and fluid/electrolyte disturbances
+Allopurinol,Amoxicillin,0.6,Increased risk of maculopapular rash
+Ciprofloxacin,Azithromycin,0.8,Additive QT prolongation → torsades de pointes
+Ciprofloxacin,Digoxin,0.72,Gut flora disruption increases digoxin absorption
+Gabapentin,Tramadol,0.75,Additive CNS depression — respiratory depression risk
+Furosemide,Digoxin,0.78,Hypokalemia from furosemide potentiates digoxin toxicity
+Furosemide,Lisinopril,0.4,First-dose hypotension; ACE inhibitor + volume depletion
+Spironolactone,Losartan,0.78,Triple RAAS suppression → severe hyperkalemia
+Aspirin,Clopidogrel,0.45,Dual antiplatelet — standard in ACS but increases bleeding
+Tramadol,Gabapentin,0.75,Additive CNS/respiratory depression
+Insulin Glargine,Metformin,0.25,Additive hypoglycemic effect — usually intentional combination
+Insulin Glargine,Prednisone,0.8,Corticosteroids cause insulin resistance requiring dose escalation
+Sitagliptin,Insulin Glargine,0.4,Additive hypoglycemia risk; monitor glucose

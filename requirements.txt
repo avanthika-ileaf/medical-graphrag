@@ -1,0 +1,45 @@
+# Core database clients
+neo4j==5.15.0
+qdrant-client==1.7.3
+
+# Web framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# OpenAI
+openai==1.12.0
+
+# LiteLLM — provider-agnostic LLM router (Gemini, OpenAI, Anthropic, etc.)
+litellm>=1.40.0
+
+# arXiv research paper retrieval
+arxiv>=2.1.0
+
+# LangChain ecosystem
+langchain==0.1.12
+langchain-openai==0.0.8
+langchain-community==0.0.28
+
+# Ontology / RDF
+rdflib==7.0.0
+owlready2==0.46
+
+# Evaluation
+ragas==0.1.7
+datasets==2.17.0
+
+# Data generation & processing
+faker==24.0.0
+pandas==2.2.0
+numpy==1.26.4
+
+# Visualization & demo
+streamlit==1.31.0
+matplotlib==3.8.2
+plotly==5.18.0
+pyvis==0.3.2
+
+# Utilities
+python-dotenv==1.0.1
+tqdm==4.66.2
+httpx==0.26.0

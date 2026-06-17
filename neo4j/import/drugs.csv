@@ -1,0 +1,31 @@
+name,class,fda,indications,side_effects,contraindications
+Warfarin,Anticoagulant,True,"Blood clot prevention, atrial fibrillation","Bleeding, bruising","Pregnancy, active bleeding"
+Aspirin,NSAID,True,"Pain, fever, cardiovascular prophylaxis","GI upset, bleeding",Peptic ulcer disease
+Metformin,Antidiabetic,True,Type 2 Diabetes,"GI upset, lactic acidosis",Renal impairment
+Lisinopril,ACE Inhibitor,True,"Hypertension, heart failure","Cough, hyperkalemia","Pregnancy, angioedema"
+Atorvastatin,Statin,True,"High cholesterol, cardiovascular disease","Myopathy, liver enzyme elevation",Active liver disease
+Amlodipine,Calcium Channel Blocker,True,"Hypertension, angina","Edema, flushing",Severe aortic stenosis
+Omeprazole,Proton Pump Inhibitor,True,"GERD, peptic ulcer","Headache, diarrhea",Hypersensitivity
+Metoprolol,Beta Blocker,True,"Hypertension, heart failure, angina","Fatigue, bradycardia","Severe bradycardia, cardiogenic shock"
+Levothyroxine,Thyroid Hormone,True,Hypothyroidism,"Palpitations, insomnia",Uncorrected adrenal insufficiency
+Gabapentin,Anticonvulsant,True,"Epilepsy, neuropathic pain","Drowsiness, dizziness",Hypersensitivity
+Hydrochlorothiazide,Diuretic,True,"Hypertension, edema","Electrolyte imbalance, gout",Anuria
+Sertraline,SSRI,True,"Depression, anxiety, OCD","Nausea, insomnia, sexual dysfunction",MAO inhibitor use
+Fluoxetine,SSRI,True,"Depression, OCD, panic disorder","Nausea, insomnia",MAO inhibitor use
+Amoxicillin,Antibiotic,True,Bacterial infections,"Diarrhea, rash",Penicillin allergy
+Azithromycin,Antibiotic,True,"Respiratory infections, STIs","GI upset, QT prolongation","Liver disease, QT prolongation"
+Clopidogrel,Antiplatelet,True,"ACS, stroke prevention",Bleeding,"Active bleeding, hypersensitivity"
+Furosemide,Loop Diuretic,True,"Heart failure, edema","Electrolyte loss, dehydration",Anuria
+Prednisone,Corticosteroid,True,"Inflammation, autoimmune conditions","Weight gain, hyperglycemia",Systemic fungal infection
+Allopurinol,Xanthine Oxidase Inhibitor,True,Gout,"Rash, GI upset",Hypersensitivity
+Insulin Glargine,Insulin,True,Type 1 & 2 Diabetes,"Hypoglycemia, weight gain",Hypoglycemia
+Sitagliptin,DPP-4 Inhibitor,True,Type 2 Diabetes,Nasopharyngitis,"Type 1 Diabetes, DKA"
+Losartan,ARB,True,"Hypertension, diabetic nephropathy","Hyperkalemia, dizziness",Pregnancy
+Spironolactone,Aldosterone Antagonist,True,"Heart failure, hypertension, hyperaldosteronism","Hyperkalemia, gynecomastia","Hyperkalemia, Addison's disease"
+Tramadol,Opioid Analgesic,True,Moderate-severe pain,"Drowsiness, nausea, seizures","MAO inhibitor use, severe respiratory depression"
+Ciprofloxacin,Fluoroquinolone,True,"Bacterial infections, UTIs","Tendinopathy, QT prolongation","QT prolongation, myasthenia gravis"
+Digoxin,Cardiac Glycoside,True,"Heart failure, atrial fibrillation","Arrhythmia, GI upset",Ventricular fibrillation
+Carvedilol,Beta Blocker,True,"Heart failure, hypertension","Dizziness, fatigue","Severe bradycardia, bronchospasm"
+Duloxetine,SNRI,True,"Depression, anxiety, neuropathic pain","Nausea, dry mouth","MAO inhibitor use, uncontrolled glaucoma"
+Pantoprazole,Proton Pump Inhibitor,True,"GERD, Zollinger-Ellison syndrome","Headache, diarrhea",Hypersensitivity
+Tamsulosin,Alpha Blocker,True,BPH,Orthostatic hypotension,Severe hepatic impairment
