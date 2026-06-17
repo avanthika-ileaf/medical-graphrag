@@ -10,7 +10,7 @@ uvicorn[standard]==0.24.0
 openai==1.12.0
 
 # LiteLLM — provider-agnostic LLM router (Gemini, OpenAI, Anthropic, etc.)
-litellm>=1.40.0
+litellm==1.40.17
 
 # arXiv research paper retrieval
 arxiv>=2.1.0
