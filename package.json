@@ -1,0 +1,17 @@
+{
+  "name": "medical-graphrag",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "build": "cd frontend && npm run build",
+    "dev": "cd frontend && npm run dev",
+    "start": "cd frontend && npm run preview"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2"
+  }
+}
