@@ -10,9 +10,9 @@ __pycache__/
 *$py.class
 *.so
 .Python
-build/
+/build/
 develop-eggs/
-dist/
+/dist/
 downloads/
 eggs/
 .eggs/
@@ -65,9 +65,9 @@ demos/
 # Ontology
 ontology/
 # API
-api/
+/api/
 # Source
-src/
+/src/
 # Setup
 setup_project.py
 setup.cfg
