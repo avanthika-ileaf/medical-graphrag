@@ -1,0 +1,100 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Build outputs
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python files (should not be in frontend)
+*.py
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+env.bak/
+envs/
+__pycache__/
+*.egg-info/
+MANIFEST
+requirements.txt
+
+# Data files
+data/
+*.csv
+*.json (except package*.json)
+
+# Tests
+tests/
+test/
+*.test.js
+*.spec.js
+
+# Documentation
+docs/
+*.md (except README.md)
+
+# Scripts
+scripts/
+
+# Demos
+demos/
+
+# Evaluation
+evaluation/
+
+# Neo4j
+neo4j/
+
+# Qdrant
+qdrant/
+
+# Ontology
+ontology/
+
+# API
+api/
+
+# Source
+src/
+
+# Setup
+setup_project.py
+setup.cfg
+
+# Git
+.git/
+.gitignore
+
+# Vercel
+.vercel/
